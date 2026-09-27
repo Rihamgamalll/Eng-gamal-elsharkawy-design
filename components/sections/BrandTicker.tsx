@@ -28,7 +28,9 @@ export function BrandTicker() {
       }
     );
 
-    return () => tween.kill();
+    return () => {
+      tween.kill();
+    };
   }, [dir]);
 
   return (
