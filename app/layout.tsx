@@ -25,7 +25,18 @@ const inter = Inter({
   weight: ['300', '400', '500', '600', '700'],
 });
 
+const deploymentUrl =
+  process.env.NEXT_PUBLIC_SITE_URL ||
+  process.env.VERCEL_PROJECT_PRODUCTION_URL ||
+  process.env.VERCEL_URL ||
+  'http://localhost:3000';
+
+const siteUrl = deploymentUrl.startsWith('http')
+  ? deploymentUrl
+  : `https://${deploymentUrl}`;
+
 export const metadata: Metadata = {
+  metadataBase: new URL(siteUrl),
   title: 'المهندس جمال الشرقاوي | ديكور وجبس وتشطيبات داخلية',
   description:
     'أعمال ديكور وجبس وتشطيبات داخلية بإشراف المهندس جمال الشرقاوي في المدينة المنورة، مع خدمة لمختلف مناطق المملكة العربية السعودية.',
@@ -39,12 +50,27 @@ export const metadata: Metadata = {
     'Interior Decoration',
   ],
   openGraph: {
-    title: 'المهندس جمال الشرقاوي | ديكور وجبس وتشطيبات',
+    title: 'المهندس جمال الشرقاوي | ديكور وتصميم داخلي',
     description:
-      'تصميم وتنفيذ أعمال الديكور والجبس والتشطيبات الداخلية بعناية في التفاصيل وجودة التنفيذ.',
+      'تصميم وتنفيذ أعمال الديكور والتشطيبات الداخلية بعناية في التفاصيل وجودة التنفيذ.',
     type: 'website',
     locale: 'ar_SA',
     alternateLocale: ['en_US'],
+    images: [
+      {
+        url: '/og-image.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'المهندس جمال الشرقاوي - مهندس ديكور وتصميم داخلي',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'المهندس جمال الشرقاوي | ديكور وتصميم داخلي',
+    description:
+      'تصميم وتنفيذ أعمال الديكور والتشطيبات الداخلية بعناية في التفاصيل وجودة التنفيذ.',
+    images: ['/og-image.jpg'],
   },
 };
 
