@@ -25,15 +25,9 @@ const inter = Inter({
   weight: ['300', '400', '500', '600', '700'],
 });
 
-const deploymentUrl =
+const siteUrl =
   process.env.NEXT_PUBLIC_SITE_URL ||
-  process.env.VERCEL_PROJECT_PRODUCTION_URL ||
-  process.env.VERCEL_URL ||
-  'http://localhost:3000';
-
-const siteUrl = deploymentUrl.startsWith('http')
-  ? deploymentUrl
-  : `https://${deploymentUrl}`;
+  'https://abu-mohamed-design.vercel.app';
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -50,6 +44,8 @@ export const metadata: Metadata = {
     'Interior Decoration',
   ],
   openGraph: {
+    url: '/',
+    siteName: 'أبو محمد',
     title: 'أبو محمد | ديكور وتصميم داخلي',
     description:
       'تصميم وتنفيذ أعمال الديكور والتشطيبات الداخلية بعناية في التفاصيل وجودة التنفيذ.',
@@ -58,7 +54,7 @@ export const metadata: Metadata = {
     alternateLocale: ['en_US'],
     images: [
       {
-        url: '/og-abu-mohamed-v3.jpg',
+        url: '/og-abu-mohamed-final-v4.jpg',
         width: 1200,
         height: 630,
         alt: 'أبو محمد - مهندس ديكور وتصميم داخلي',
@@ -70,7 +66,7 @@ export const metadata: Metadata = {
     title: 'أبو محمد | ديكور وتصميم داخلي',
     description:
       'تصميم وتنفيذ أعمال الديكور والتشطيبات الداخلية بعناية في التفاصيل وجودة التنفيذ.',
-    images: ['/og-abu-mohamed-v3.jpg'],
+    images: ['/og-abu-mohamed-final-v4.jpg'],
   },
 };
 
