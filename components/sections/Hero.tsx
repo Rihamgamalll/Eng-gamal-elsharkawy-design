@@ -83,7 +83,7 @@ export function Hero() {
       <div data-hero-bg className="absolute -inset-[6%] will-change-transform">
         <Image
           src="/Hero-main.png"
-          alt={locale === 'ar' ? 'مشروع ديكور داخلي من أعمال المهندس جمال الشرقاوي' : 'Interior project by Eng. Gamal Elsharkawy'}
+          alt={locale === 'ar' ? 'مشروع ديكور داخلي من أعمال أبو محمد' : 'Interior project by Abu Mohamed'}
           fill
           priority
           sizes="100vw"

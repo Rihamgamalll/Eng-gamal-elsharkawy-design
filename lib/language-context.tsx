@@ -12,8 +12,8 @@ export type Locale = 'ar' | 'en';
 type Dict = Record<string, string>;
 
 const ar: Dict = {
-  'brand.name': 'المهندس جمال الشرقاوي',
-  'brand.short': 'جمال الشرقاوي',
+  'brand.name': 'أبو محمد',
+  'brand.short': 'أبو محمد',
   'brand.trade': 'ديكور • جبس • تشطيبات',
   'brand.city': 'المدينة المنورة',
 
@@ -39,7 +39,7 @@ const ar: Dict = {
   'hero.scroll': 'مرّر لاكتشاف التفاصيل',
   'hero.englishEyebrow': 'ENGINEERED INTERIORS',
   'hero.englishLine': 'GYPSUM • DECOR • FINISHING',
-  'hero.signature': 'Eng. Gamal Elsharkawy',
+  'hero.signature': 'Abu Mohamed',
   'hero.feature': 'تفاصيل محسوبة. تنفيذ نظيف. نتيجة تليق بالمكان.',
 
   'ticker.1': 'أسقف جبسية',
@@ -58,7 +58,7 @@ const ar: Dict = {
   'services.s2.title': 'ديكورات الجدران',
   'services.s2.desc':
     'بانوهات وزخارف وتفاصيل جدارية تضبط نسب المكان وتمنحه حضورًا معماريًا واضحًا.',
-  'services.s3.title': 'جدران التلفزيون',
+  'services.s3.title': 'جدران الشاشة',
   'services.s3.desc':
     'تصميمات متكاملة تجمع بين الكسوات والجبس والإضاءة والتخزين بما يخدم الشكل والاستخدام.',
   'services.s4.title': 'التشطيبات الداخلية',
@@ -74,13 +74,13 @@ const ar: Dict = {
   'projects.eyebrow': 'مختارات من الأعمال',
   'projects.title': 'كل مشروع له إيقاعه الخاص',
   'projects.subtitle':
-    'هذه نماذج مختارة فقط من أعمال المهندس جمال الشرقاوي. أخبرنا بما تتخيله لمساحتك، وننفّذه بما يناسب المكان وذوقك.',
+    'هذه نماذج مختارة فقط من أعمال أبو محمد. أخبرنا بما تتخيله لمساحتك، وننفّذه بما يناسب المكان وذوقك.',
   'projects.view': 'عرض الصورة',
   'projects.close': 'إغلاق',
   'projects.prev': 'السابق',
   'projects.next': 'التالي',
   'projects.group1': 'مجلس عصري — أسقف وإضاءة',
-  'projects.group2': 'كسوات خشبية وجدار تلفزيون',
+  'projects.group2': 'كسوات خشبية وجدار شاشة',
   'projects.group3': 'تفاصيل جدارية وكسوات',
   'projects.group4': 'ممر تجاري بهوية لونية',
   'projects.group5': 'أسقف هندسية معاصرة',
@@ -96,7 +96,7 @@ const ar: Dict = {
   'beforeafter.caption': 'معالجة زخرفية وتشطيب نهائي للتفاصيل الجدارية',
 
   'about.eyebrow': 'عن المهندس',
-  'about.title': 'المهندس جمال الشرقاوي — جودة تُرى في التفاصيل',
+  'about.title': 'أبو محمد — جودة تُرى في التفاصيل',
   'about.p1':
     'العمل الجيد لا يعتمد على كثرة الزخارف، بل على اختيار التفصيلة المناسبة للمكان وتنفيذها بإتقان. لهذا يبدأ كل مشروع بفهم المساحة واحتياج العميل قبل التنفيذ.',
   'about.p2':
@@ -132,7 +132,7 @@ const ar: Dict = {
   'contact.eyebrow': 'لنتحدث عن مشروعك',
   'contact.title': 'عندك مساحة وتريد أن ترى أفضل ما يمكن أن تصبح عليه؟',
   'contact.subtitle':
-    'تواصل مباشرة مع المهندس جمال الشرقاوي لمناقشة الفكرة، المعاينة وخطوات التنفيذ.',
+    'تواصل مباشرة مع أبو محمد لمناقشة الفكرة، المعاينة وخطوات التنفيذ.',
   'contact.phone': '0530858304',
   'contact.call': 'اتصل الآن',
   'contact.whatsapp': 'واتساب',
@@ -144,7 +144,7 @@ const ar: Dict = {
   'floating.whatsapp': 'واتساب',
 
   'footer.about':
-    'أعمال ديكور وجبس وتشطيبات داخلية بإشراف المهندس جمال الشرقاوي، مع عناية خاصة بالتكوين والإضاءة وجودة التنفيذ.',
+    'أعمال ديكور وجبس وتشطيبات داخلية بإشراف أبو محمد، مع عناية خاصة بالتكوين والإضاءة وجودة التنفيذ.',
   'footer.nav': 'روابط سريعة',
   'footer.contact': 'تواصل',
   'footer.social': 'تابع الأعمال',
@@ -157,8 +157,8 @@ const ar: Dict = {
 };
 
 const en: Dict = {
-  'brand.name': 'Eng. Gamal Elsharkawy',
-  'brand.short': 'Gamal Elsharkawy',
+  'brand.name': 'Abu Mohamed',
+  'brand.short': 'Abu Mohamed',
   'brand.trade': 'Decor • Gypsum • Finishing',
   'brand.city': 'Madinah',
 
@@ -184,7 +184,7 @@ const en: Dict = {
   'hero.scroll': 'Scroll to discover',
   'hero.englishEyebrow': 'ENGINEERED INTERIORS',
   'hero.englishLine': 'GYPSUM • DECOR • FINISHING',
-  'hero.signature': 'Eng. Gamal Elsharkawy',
+  'hero.signature': 'Abu Mohamed',
   'hero.feature': 'Considered details. Clean execution. A finished space that feels complete.',
 
   'ticker.1': 'Gypsum Ceilings',
@@ -203,7 +203,7 @@ const en: Dict = {
   'services.s2.title': 'Wall Decoration',
   'services.s2.desc':
     'Wall panels, mouldings, and decorative details that give the room stronger architectural proportions.',
-  'services.s3.title': 'TV Feature Walls',
+  'services.s3.title': 'Screen Feature Walls',
   'services.s3.desc':
     'Integrated designs combining wall cladding, gypsum, lighting, and practical use in one composition.',
   'services.s4.title': 'Interior Finishing',
@@ -219,13 +219,13 @@ const en: Dict = {
   'projects.eyebrow': 'Selected Work',
   'projects.title': 'Every project has its own rhythm',
   'projects.subtitle':
-    'A selected glimpse of Eng. Gamal Elsharkawy’s work. Share what you imagine for your space, and we can execute it to suit the place and your taste.',
+    'A selected glimpse of Abu Mohamed’s work. Share what you imagine for your space, and we can execute it to suit the place and your taste.',
   'projects.view': 'View image',
   'projects.close': 'Close',
   'projects.prev': 'Previous',
   'projects.next': 'Next',
   'projects.group1': 'Contemporary Majlis — Ceilings & Lighting',
-  'projects.group2': 'Timber Cladding & TV Wall',
+  'projects.group2': 'Timber Cladding & Screen Wall',
   'projects.group3': 'Wall Details & Cladding',
   'projects.group4': 'Commercial Corridor Identity',
   'projects.group5': 'Contemporary Geometric Ceilings',
@@ -241,7 +241,7 @@ const en: Dict = {
   'beforeafter.caption': 'Decorative feature treatment and final wall finish',
 
   'about.eyebrow': 'About',
-  'about.title': 'Eng. Gamal Elsharkawy — quality you can see in the details',
+  'about.title': 'Abu Mohamed — quality you can see in the details',
   'about.p1':
     'Good interior work is not about adding more decoration. It starts with selecting the right detail for the room and executing it accurately after understanding the space and the client’s needs.',
   'about.p2':
@@ -277,7 +277,7 @@ const en: Dict = {
   'contact.eyebrow': 'Let’s discuss your project',
   'contact.title': 'Have a space and want to see what it could become?',
   'contact.subtitle':
-    'Contact Eng. Gamal Elsharkawy directly to discuss the idea, site visit, and execution steps.',
+    'Contact Abu Mohamed directly to discuss the idea, site visit, and execution steps.',
   'contact.phone': '0530858304',
   'contact.call': 'Call Now',
   'contact.whatsapp': 'WhatsApp',
@@ -289,7 +289,7 @@ const en: Dict = {
   'floating.whatsapp': 'WhatsApp',
 
   'footer.about':
-    'Interior decoration, gypsum, and finishing work supervised by Eng. Gamal Elsharkawy, with special focus on composition, lighting, and execution quality.',
+    'Interior decoration, gypsum, and finishing work supervised by Abu Mohamed, with special focus on composition, lighting, and execution quality.',
   'footer.nav': 'Quick Links',
   'footer.contact': 'Contact',
   'footer.social': 'Follow the Work',
