@@ -54,7 +54,7 @@ export const metadata: Metadata = {
     alternateLocale: ['en_US'],
     images: [
       {
-        url: '/og-abu-mohamed-final-v4.jpg',
+        url: '/og-image.jpg',
         width: 1200,
         height: 630,
         alt: 'أبو محمد - مهندس ديكور وتصميم داخلي',
@@ -66,7 +66,7 @@ export const metadata: Metadata = {
     title: 'أبو محمد | ديكور وتصميم داخلي',
     description:
       'تصميم وتنفيذ أعمال الديكور والتشطيبات الداخلية بعناية في التفاصيل وجودة التنفيذ.',
-    images: ['/og-abu-mohamed-final-v4.jpg'],
+    images: ['/og-image.jpg'],
   },
 };
 
